@@ -1,0 +1,89 @@
+.top{
+    background-color:rgb(255, 192, 44);
+    height: 100px;
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/capybg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-attachment: fixed;
+    height: 100vh;
+    margin:0;
+}
+#toptext{
+    height: 60px;
+    width:260px;
+    border:hidden ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(212, 196, 91);
+    margin:auto;
+}
+#toptext p{
+    text-align: center;
+    font-family: 'comic neue';
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+#logo{
+    width:50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+}
+#logo img{
+    border: hidden;
+    border-radius: 20px;
+}
+.box{
+    border:  solid 1px black;
+    width: 20%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    min-width: 250px;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+    
+}
+.box:hover{
+    border:  solid 3px rgb(0, 0, 0);
+    width: 20%;
+    height: 510px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    font-size: 110%;
+}
+.box img{
+    width: 200px    ;
+    border:hidden;
+    border-radius: 50px;
+}
+#botmtxt p{
+    
+    font-family: 'comic neue';
+    font-size: 1em;
+    
+
+
+}
+.bottm{
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: auto;
+    margin-bottom: 0px;
+    
+
+}
